@@ -46,3 +46,12 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
+
+# add auto prefixer
+gem 'autoprefixer-rails', '10.2.5'
+
+# add font-awesome
+gem 'font-awesome-sass', '~> 5.12.0'
+
+# add simple form
+gem 'simple_form'

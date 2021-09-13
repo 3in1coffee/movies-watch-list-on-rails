@@ -1,0 +1,5 @@
+<%= form_for(@list) do |f| %>
+  <%= f.label :name %>
+  <%= f.text_field :name, placeholder: 'Add your review here.', error: "Review is mandatory." %>
+  <%= f.submit %>
+<% end %>
